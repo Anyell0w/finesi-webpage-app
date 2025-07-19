@@ -11,9 +11,9 @@ public class DatabaseConfig {
     static {
         try {
             HikariConfig config = new HikariConfig();
-            config.setJdbcUrl("jdbc:postgresql://localhost:5432/finesi-webpage-db");
+            config.setJdbcUrl("jdbc:postgresql://postgres.railway.internal:5432/railway");
             config.setUsername("postgres"); // Cambia por tu usuario
-            config.setPassword("saranghae11"); // Cambia por tu contraseña
+            config.setPassword("skSnQRDyLOWlAQIjQcIeSREaBVrlcqtQ"); // Cambia por tu contraseña
             config.setDriverClassName("org.postgresql.Driver");
             config.setMaximumPoolSize(20);
             config.setMinimumIdle(5);
