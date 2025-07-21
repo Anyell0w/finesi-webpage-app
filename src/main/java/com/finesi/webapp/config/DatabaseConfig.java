@@ -11,9 +11,9 @@ public class DatabaseConfig {
     static {
         try {
             HikariConfig config = new HikariConfig();
-            config.setJdbcUrl("jdbc:postgresql://postgres.railway.internal:5432/railway");
+            config.setJdbcUrl("jdbc:postgresql://postgres:ggNKJXFhNFRfndVTwdfPVmBiXDzhEYfg@caboose.proxy.rlwy.net:47763/railway");
             config.setUsername("postgres"); // Cambia por tu usuario
-            config.setPassword("skSnQRDyLOWlAQIjQcIeSREaBVrlcqtQ"); // Cambia por tu contraseña
+            config.setPassword("ggNKJXFhNFRfndVTwdfPVmBiXDzhEYfg"); // Cambia por tu contraseña
             config.setDriverClassName("org.postgresql.Driver");
             config.setMaximumPoolSize(20);
             config.setMinimumIdle(5);
