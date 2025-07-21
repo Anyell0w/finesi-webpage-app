@@ -11,7 +11,7 @@ public class DatabaseConfig {
     static {
         try {
             HikariConfig config = new HikariConfig();
-            config.setJdbcUrl("jdbc:postgresql://postgres:ggNKJXFhNFRfndVTwdfPVmBiXDzhEYfg@caboose.proxy.rlwy.net:47763/railway");
+            config.setJdbcUrl("jdbc:postgresql://caboose.proxy.rlwy.net:47763/railway");
             config.setUsername("postgres"); // Cambia por tu usuario
             config.setPassword("ggNKJXFhNFRfndVTwdfPVmBiXDzhEYfg"); // Cambia por tu contraseña
             config.setDriverClassName("org.postgresql.Driver");
