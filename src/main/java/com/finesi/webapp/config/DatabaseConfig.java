@@ -13,7 +13,7 @@ public class DatabaseConfig {
             HikariConfig config = new HikariConfig();
             config.setJdbcUrl("jdbc:postgresql://localhost:5432/railway");
             config.setUsername("postgres"); // Cambia por tu usuario
-            config.setPassword("saranghae11"); // Cambia por tu contraseña
+            config.setPassword("ggNKJXFhNFRfndVTwdfPVmBiXDzhEYfg"); // Cambia por tu contraseña
             config.setDriverClassName("org.postgresql.Driver");
             config.setMaximumPoolSize(20);
             config.setMinimumIdle(5);

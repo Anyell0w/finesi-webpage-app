@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context path="/finesi-webapp">
-   <Resource auth="Container" driverClassName="org.postgresql.Driver" maxIdle="10" maxTotal="20" maxWaitMillis="10000" name="jdbc/finesids" password="ggNKJXFhNFRfndVTwdfPVmBiXDzhEYfg" testOnBorrow="true" type="javax.sql.DataSource" url="jdbc:postgresql://caboose.proxy.rlwy.net:47763/railway" username="postgres" validationQuery="SELECT 1"/>
+   <Resource auth="Container" driverClassName="org.postgresql.Driver" maxIdle="10" maxTotal="20" maxWaitMillis="10000" name="jdbc/finesids" password="ggNKJXFhNFRfndVTwdfPVmBiXDzhEYfg" testOnBorrow="true" type="javax.sql.DataSource" url="jdbc:postgresql://localhost:5432/railway" username="postgres" validationQuery="SELECT 1"/>
 </Context>
